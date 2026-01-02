@@ -1,11 +1,11 @@
 export const SideBarData = [
     {
-        imgUrl: '/icons/chat.svg',
+        imgUrl: '/icons/Home.svg',
         route: '/',
         label: 'Home'
     },
     {
-        imgUrl: '/icons/chat.svg',
+        imgUrl: '/icons/upcoming.svg',
         route: '/upcoming',
         label: 'Upcoming'
     },

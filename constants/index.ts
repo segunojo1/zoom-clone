@@ -1,7 +1,7 @@
 export const SideBarData = [
     {
         imgUrl: '/icons/chat.svg',
-        route: '/home',
+        route: '/',
         label: 'Home'
     },
     {

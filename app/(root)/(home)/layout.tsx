@@ -1,6 +1,15 @@
 import Navbar from "@/components/navbar";
 import Sidebar from "@/components/sidebar";
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "Zoomr",
+  description: "Video conerencing app",
+  icons: {
+    icon: "/icons/logo.svg",
+  },
+};
 
 const HomeLayout = ({ children }: { children: React.ReactNode }) => {
   return (

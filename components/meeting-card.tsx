@@ -26,7 +26,7 @@ const MeetingCard = ({
   buttonText,
 }: MeetingCardProps) => {
   return (
-    <section className='flex min-h-[258px] w-full flex-col justify-between rounded-[14px] bg-[#161925] px-5 py-8 xl:max-w-[568px]'>
+    <section className='flex min-h-[258px] w-full flex-col justify-between rounded-[14px] bg-[#1C1F2E] text-white px-5 py-8 xl:max-w-[568px]'>
       <article className='flex flex-col gap-5'>
         <Image
           src={icon}
